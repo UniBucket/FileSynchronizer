@@ -19,7 +19,7 @@ public class FSListener extends FileAlterationListenerAdaptor {
 
     @Override
     public void onDirectoryChange(final File directory) {
-        System.out.println(directory.getAbsolutePath() + " wa modified");
+        System.out.println(directory.getAbsolutePath() + " was modified");
     }
 
     @Override
