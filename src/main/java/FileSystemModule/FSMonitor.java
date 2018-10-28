@@ -8,7 +8,7 @@ public class FSMonitor {
 
     public static void main(String[] args) throws Exception {
         long interval = 1000;
-        final String dir = "~/Documents/FileSynchronizor/test_folder";
+        final String dir = "./test_folder";
         // Change this to match the environment you want to watch.
         final File directory = new File(dir);
         FileAlterationObserver fao = new FileAlterationObserver(directory);
