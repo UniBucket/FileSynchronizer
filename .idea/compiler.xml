@@ -9,8 +9,8 @@
         <module name="FileSynchronizer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="FileSynchronizer" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="FileSynchronizer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

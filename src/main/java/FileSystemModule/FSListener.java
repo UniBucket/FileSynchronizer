@@ -9,7 +9,7 @@ import org.apache.commons.io.monitor.FileAlterationObserver;
 public class FSListener extends FileAlterationListenerAdaptor {
     @Override
     public void onStart(final FileAlterationObserver observer) {
-        System.out.println("The WindowsFileListener has started on " + observer.getDirectory().getAbsolutePath());
+//        System.out.println("The WindowsFileListener has started on " + observer.getDirectory().getAbsolutePath());
     }
 
     @Override
@@ -54,6 +54,6 @@ public class FSListener extends FileAlterationListenerAdaptor {
 
     @Override
     public void onStop(final FileAlterationObserver observer) {
-        System.out.println("The WindowsFileListener has stopped on " + observer.getDirectory().getAbsolutePath());
+//        System.out.println("The WindowsFileListener has stopped on " + observer.getDirectory().getAbsolutePath());
     }
 }
